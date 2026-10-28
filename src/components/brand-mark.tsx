@@ -1,14 +1,14 @@
 import { cn } from "@/lib/cn";
 
-/** Dossier's "D" mark, as in src/app/icon.svg, in the primary colours, so it turns light in the dark scheme. Decorative: put the name next to it. */
+/** Jobinder's "J" mark, as in src/app/icon.svg, in the primary colours, so it turns light in the dark scheme. Decorative: put the name next to it. */
 export function BrandMark({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 64 64" aria-hidden="true" className={cn("size-8 shrink-0", className)}>
       <rect width="64" height="64" rx="14.08" className="fill-primary" />
       <path
         className="fill-on-primary"
-        transform="matrix(0.02844 0 0 -0.02844 10.214 51.200)"
-        d="M1179.8 691.9Q1179.8 974 1032.5 1107.7Q885.3 1241.3 625.7 1241.3H354.9L338.3 1350H674.8Q936.6 1350 1111 1279.8Q1285.4 1209.6 1372.4 1068.2Q1459.5 926.8 1459.5 714.2Q1459.5 486.8 1357.2 327.4Q1254.8 168 1077.9 84Q900.9 0 678.3 0H338.3L354.9 108.7H646.1Q807.3 108.7 927.1 168.3Q1047 227.8 1113.4 356.5Q1179.8 485.1 1179.8 691.9ZM72.3 0V41L223.4 95.9V1254.2L72.3 1308.9V1350H489.4V0Z"
+        transform="matrix(0.02844 0 0 -0.02844 16.415 51.200)"
+        d="M549 1350H966V420Q966 190 838 85Q710 -20 500 -20Q330 -20 230 40Q130 100 130 210Q130 290 180 335Q230 380 300 380Q370 380 412 338Q455 296 455 230Q455 170 425 125Q450 95 500 95Q610 95 655 175Q700 255 700 420V1254.2L549 1308.9Z"
       />
     </svg>
   );

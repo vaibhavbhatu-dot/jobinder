@@ -7,7 +7,6 @@ import type { Release } from "@/lib/releases";
 import type { ColorScheme } from "@/lib/ui-preferences";
 
 import { NavLinks } from "./nav-links";
-import { RepositoryLink } from "./repository-link";
 import { SidebarFrame } from "./sidebar-frame";
 import { ThemeToggle } from "./theme-toggle";
 import { UpdateNotice } from "./update-notice";
@@ -48,7 +47,7 @@ export function Sidebar({
         <>
           <BrandMark />
           <div className="flex min-w-0 flex-col group-data-collapsed/sidebar:hidden">
-            <span className="font-serif text-2xl leading-none font-medium tracking-[-0.01em]">Dossier</span>
+            <span className="font-serif text-2xl leading-none font-medium tracking-[-0.01em]">Jobinder</span>
             <span className="truncate text-xs text-muted">Your job search, on your server</span>
           </div>
         </>
@@ -77,7 +76,6 @@ export function Sidebar({
 
       <div className="flex flex-col gap-0.5 border-t border-line p-2 group-data-collapsed/sidebar:px-1">
         <ThemeToggle serverScheme={colorScheme} />
-        <RepositoryLink />
       </div>
 
       <div className="flex items-center gap-2 border-t border-line px-4 py-3 group-data-collapsed/sidebar:flex-col group-data-collapsed/sidebar:px-1">
